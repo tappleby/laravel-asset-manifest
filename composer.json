@@ -1,6 +1,6 @@
 {
   "name": "tappleby/laravel-asset-manifest",
-  "description": "",
+  "description": "Laravel 4 package for dynamically retargeting asset paths, useful for asset revisioning using tools such as grunt.",
   "authors": [
     {
       "name": "Terry Appleby",
