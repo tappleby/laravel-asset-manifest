@@ -1,6 +1,6 @@
 # Laravel Asset Manifest
 
-Simple Laravel 4 package for dynamically retargeting asset paths, useful for asset revisioning using tools such as grunt and/or loading assets from a CDN. Extends Laravel's url generator which means existing `asset()` or `URL::asset` calls will work without changes.
+Simple Laravel 4 package for re-mapping assets paths, useful for asset revving using tools such as grunt and/or loading assets from a CDN. Extends Laravel's url generator which means existing `asset()` or `URL::asset` calls will work without changes.
 
 [![Build Status](https://travis-ci.org/tappleby/laravel-asset-manifest.svg?branch=master)](https://travis-ci.org/tappleby/laravel-asset-manifest)
 
@@ -38,3 +38,7 @@ Calling `asset("foo.png")` in your view will return "bar.png". If the target url
 
 This package integrates well with grunt + grunt-filerev, using the [grunt-filerev-assets](https://github.com/richardbolt/grunt-filerev-assets) package the asset manfiest can automatically be generated.
 
+
+## License 
+
+licensed under the MIT License - see the LICENSE file for details
