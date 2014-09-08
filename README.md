@@ -22,7 +22,7 @@ If you wish to access the asset manifest manually, the facade can be registered:
 
 The default config path can be changed by publishing the config:
 
-	$ php artisan config:publish tappleby/laravel-asset-manfiest
+	$ php artisan config:publish tappleby/laravel-asset-manifest
 
 ## Usage
 
